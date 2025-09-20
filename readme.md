@@ -4,17 +4,13 @@
 
 This lab demonstrates the creation of a web-based counter application using multiple AWS services. The application allows users to increment a counter, save the count value, and store it in DynamoDB through a chain of AWS services.
 
+Document in notion: https://electric-sugar-0c5.notion.site/Serverless-Web-Counter-154bf361031280d3ac82fe1c76793ba7?source=copy_link
 ## **Architecture**
 
 ```
 Browser -> API Gateway -> Lambda 1 (HTML) -> API Gateway -> Lambda 2 (DynamoDB) -> DynamoDB
 
 ```
-
-![Alt Text](path/to/image(1).png "Optional Title")
-
-![Alt Text](path/to/image(2).png "Optional Title")
-
 ## **Components Used**
 
 1. API Gateway - For handling HTTP requests
@@ -118,8 +114,6 @@ return {
 
 ```
 
-![image.png](attachment:fc8d3789-92a5-4182-940d-48ebecef0847:image.png)
-
 ### 4. API Gateway Configuration
 
 ```
@@ -151,8 +145,6 @@ return {
    - Generated Invoke URL
 
 ```
-
-![image.png](attachment:649b4b0f-7f6e-404b-a526-3a61e138ae80:image.png)
 
 ### 5. IAM Role Configurations
 
