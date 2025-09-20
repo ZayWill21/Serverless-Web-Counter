@@ -11,9 +11,9 @@ Browser -> API Gateway -> Lambda 1 (HTML) -> API Gateway -> Lambda 2 (DynamoDB) 
 
 ```
 
-![image.png](attachment:ba16c69b-af8b-4b09-ac1f-f4fd63e1fea2:image.png)
+![Alt Text](path/to/image1.png "Optional Title")
 
-![image.png](attachment:767d9ef2-24d4-406e-a23a-831bde2b8701:image.png)
+![Alt Text](path/to/image2.png "Optional Title")
 
 ## **Components Used**
 
